@@ -6,7 +6,7 @@ export const AppContext = createContext()
 
 export const AppContextProvider = (props)=>{
     axios.defaults.withCredentials=true
-    const backenedUrl = import.meta.env.VITE_BACKENED_URL;
+    const backenedUrl = import.meta.env.VITE_BACKENED_URL || "http://localhost:4000";
     const [isLoggedin,setIsLoggedin] =useState(false);
     const [userData, setUserData] = useState(false);
 

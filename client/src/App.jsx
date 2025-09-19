@@ -5,7 +5,7 @@ import Login from './pages/Login'
 import EmailVerify from './pages/EmailVerify'
 import ResetPassword from './pages/ResetPassword'
 import { ToastContainer, toast } from 'react-toastify';
-import Notes from './pages/Notes'
+import Notes from './pages/notes'
 import { Navigate } from 'react-router-dom'
 import { AppContext } from './context/AppContext'
 import { useContext } from 'react'
